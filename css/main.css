@@ -1,0 +1,371 @@
+/* VARIABLES */
+/*COLUMNAS*/
+.col-1 {
+  width: 100%; }
+
+.col-2 {
+  width: 50%; }
+
+.col-3 {
+  width: 33.33333%; }
+
+.col-4 {
+  width: 25%; }
+
+.col-5 {
+  width: 20%; }
+
+.col-6 {
+  width: 16.66667%; }
+
+.col-7 {
+  width: 14.28571%; }
+
+.col-8 {
+  width: 12.5%; }
+
+.col-9 {
+  width: 11.11111%; }
+
+.col-10 {
+  width: 10%; }
+
+.col-11 {
+  width: 9.09091%; }
+
+.col-12 {
+  width: 8.33333%; }
+
+/*DISPOSICION*/
+#disposicion {
+  display: grid;
+  grid-template-columns: 100vh;
+  grid-template-rows: 100px 100px;
+  grid-template-areas: "contenido"
+ "pie ";
+  width: 100vh;
+  margin: 0% auto; }
+
+/*CLASES */
+.contenido {
+  grid-area: contenido; }
+
+.pie {
+  grid-area: pie; }
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%; }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px; }
+
+.flex-container div {
+  width: 100%;
+  margin: 10px;
+  text-align: center; }
+
+.flex-container a {
+  width: 100%;
+  padding: 10px;
+  text-align: center; }
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px; }
+
+.orden-titulo {
+  display: flex;
+  margin-bottom: 4%; }
+
+.derecha {
+  display: flex;
+  justify-content: right; }
+
+.margenizq {
+  margin-left: 5%; }
+
+.contorno {
+  border: black solid 5px; }
+
+.espacio {
+  display: flex;
+  margin-bottom: 3%;
+  align-items: center;
+  justify-content: space-around; }
+
+.espaciof {
+  display: flex;
+  margin-top: 5%; }
+
+.footer-color {
+  background-color: #FDFBF6; }
+
+/*BANNER*/
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 32px;
+  font-weight: bold; }
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+/*MENU*/
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif; }
+
+.body_formato {
+  font-family: 'Press Start 2P', cursive; }
+
+.fondo_articulo {
+  background-color: gray; }
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: table;
+  position: relative; }
+
+h1 {
+  margin: 0px auto;
+  display: table;
+  font-size: 26px;
+  padding: 40px 0px;
+  color: #000000;
+  text-align: center; }
+
+h1 span {
+  font-weight: 500; }
+
+header {
+  width: 100%;
+  display: table;
+  background-color: #ff0000;
+  margin-bottom: 50px;
+  opacity: 0.6; }
+
+#logo {
+  float: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 20px 0px;
+  filter: brightness(200%); }
+
+nav {
+  width: auto;
+  float: right; }
+
+nav ul {
+  display: table;
+  float: right; }
+
+nav ul li {
+  float: left; }
+
+nav ul li:last-child {
+  padding-right: 0px; }
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 25px 20px;
+  display: inline-block;
+  transition: all 0.5s ease 0s; }
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.5s ease 0s; }
+
+nav ul li a:hover i {
+  color: #fde428;
+  transition: all 0.5s ease 0s; }
+
+nav ul li a i {
+  padding-right: 10px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s; }
+
+.toggle-menu ul {
+  display: table;
+  width: 25px; }
+
+.toggle-menu ul li {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+  margin-bottom: 4px; }
+
+.toggle-menu ul li:last-child {
+  margin-bottom: 0px; }
+
+input[type=checkbox], label {
+  display: none; }
+
+.content {
+  display: table;
+  margin-bottom: 60px;
+  width: 900px; }
+
+.content h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  display: table;
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
+
+.content p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  text-align: justify; }
+
+footer {
+  display: table;
+  padding-bottom: 30px;
+  width: 100%; }
+
+.social {
+  margin: 0px auto;
+  display: table;
+  display: table; }
+
+.social li {
+  float: left;
+  padding: 0px 10px; }
+
+.social li a {
+  color: #ff0000;
+  transition: all 0.5s ease 0s; }
+
+.social li a:hover {
+  color: #ff0000;
+  transition: all 0.5s ease 0s; }
+
+.transicion:hover {
+  transition: 3s;
+  transform: scale(1.1, 1.1);
+  font-size: 4rem; }
+
+@media only screen and (max-width: 1440px) {
+  section {
+    max-width: 95%; } }
+
+@media only screen and (max-width: 980px) {
+  header {
+    padding: 20px 0px; }
+  #logo {
+    padding: 0px; }
+  input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    background: none; }
+  input[type=checkbox]:focus {
+    background: none; }
+  label {
+    padding: 8px 0px;
+    display: inline-block;
+    cursor: pointer; }
+  input[type=checkbox]:checked ~ nav {
+    display: block; }
+  nav {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 53px;
+    background-color: #000000;
+    padding: 0px;
+    z-index: 99; }
+  nav ul {
+    width: auto; }
+  nav ul li {
+    float: none;
+    padding: 0px;
+    width: 100%;
+    display: table; }
+  nav ul li a {
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.1); }
+  nav ul li a i {
+    color: #fde428;
+    padding-right: 13px; }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px; }
+  .flex-container div {
+    width: 100%;
+    margin: 10px;
+    text-align: center; }
+  .flex-container a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    flex-direction: inherit;
+    flex-wrap: wrap; } }
+
+@media only screen and (max-width: 980px) {
+  .content {
+    width: 90%; } }
+
+@media only screen and (max-width: 568px) {
+  h1 {
+    padding: 25px 0px; }
+  h1 span {
+    display: block; } }
+
+@media only screen and (max-width: 480px) {
+  section {
+    max-width: 90%; } }
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 20px; }
+  label {
+    padding: 5px 0px; }
+  #logo {
+    font-size: 20px; }
+  nav {
+    top: 47px; } }
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    padding: 20px 0px; } }
